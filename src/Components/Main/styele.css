@@ -1,0 +1,8 @@
+.animes-list {
+  display: grid;
+  justify-content: center;
+  grid-template-columns: 370px 370px 370px ;
+  list-style: none;
+  grid-gap: 5rem;
+  margin-bottom: 100px;
+}

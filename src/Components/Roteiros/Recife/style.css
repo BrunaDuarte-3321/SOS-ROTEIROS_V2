@@ -1,0 +1,175 @@
+.title2{
+  margin: 834px 120px 0;
+}
+.title2 h1{
+  font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 32px;
+line-height: 48px;
+color: #1F293D;
+}
+
+
+.botoes{
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 0px;
+width: 436px;
+height: 44px;
+
+}
+.botoes button{
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 20px 40px;
+width: 132px;
+height: 44px;
+background: #3F6D6F;
+border-radius: 100px;
+flex: none;
+order: 0;
+flex-grow: 0;
+margin: 0px 20px;
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 14px;
+line-height: 19px;
+letter-spacing: 0.04em;
+color: #FFFFFF;
+}
+.dia h2{
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 800;
+font-size: 54px;
+line-height: 64px;
+
+text-transform: uppercase;
+color: #6FE0BE;
+}
+small{
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 36px;
+
+  color: #6FE0BE;
+}
+.trajeto h4 {
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 24px;
+line-height: 36px;
+color: #1F293D;
+margin: 0 15px;
+}
+.trajeto img {
+  margin: 21px 0;
+}
+
+.title h3{
+width: 250px;
+height: 36px;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 24px;
+line-height: 36px;
+color: #1F293D;
+}
+
+.images-card{
+  display: flex;
+  flex-direction: column;
+}
+.img1 img{
+  width: 584px;
+  height: 412px;
+  margin-top: 22px ;
+  box-sizing: border-box;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  border-radius: 12px;
+}
+.img2 img{
+width: 88px;
+height: 92px;
+margin-top: 16px;
+flex: none;
+order: 1;
+flex-grow: 0;
+margin: 16px 0px;
+}
+.descricao{
+width: 583px;
+height: 472px;
+margin: 0 250px 0 0;
+flex: none;
+order: 1;
+flex-grow: 0;
+}
+.descricao h4{
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+width: 74px;
+height: 30px;
+margin: 0 0 30px; 
+flex: none;
+order: 0;
+flex-grow: 0;
+color: #6FE0BE;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+line-height: 30px;
+}
+.descricao p{
+width: 583px;
+height: 195px;
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 19px;
+color: #1F293D;
+flex: none;
+order: 1;
+flex-grow: 0;
+margin: 38px 0px;
+}
+.descricao h3{
+width: 95px;
+height: 24px;
+margin: 38px 0;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 24px;
+color: #1F293D;
+}
+.img-location{
+display: flex;
+flex-direction: row;
+text-align: center;
+}
+
+/* Inside auto layout */
+
+.endereco img{
+width: 24px;
+height: 24px;
+flex: none;
+order: 0;
+flex-grow: 0;
+margin-right: 8px;
+}

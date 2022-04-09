@@ -1,0 +1,6 @@
+.filter {
+  margin: 0 auto 150px;
+  width: 50%;
+  border-radius: 30px;
+  background: var(--efect);
+}

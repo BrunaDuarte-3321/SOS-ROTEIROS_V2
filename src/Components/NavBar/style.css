@@ -1,0 +1,17 @@
+.navbar {
+  width: 100%;
+  color: rgba(63, 109, 111, 1);
+}
+a.nav-link{
+  color: red;
+  text-decoration: none;
+  font-size: 16px;
+  line-height: 22px;
+  color:#3F6D6F
+  ;
+}
+a.nav-link:hover{
+  color:#457679
+  ;
+
+}
