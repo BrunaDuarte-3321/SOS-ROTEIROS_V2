@@ -21,7 +21,7 @@ const Filter = () => {
         </select>
       </div>
       <div className="col-sm">
-        <button>Buscar</button>
+        <button className='button'>Buscar</button>
       </div>
     </section>
   );
