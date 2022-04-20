@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+ 
 footer {
   height: 100%;
   background-color: var(--background);
@@ -17,24 +17,5 @@ footer {
   .container-footer {
   margin: 0 25%;
   }
-=======
-footer {
-  height: 100%;
-  background-color: var(--background);
 }
-.nav-footer li a {
-  font-size: 16px;
-}
-
-.nav-footer li,ul {
-  padding-right: 30px;
-  padding-bottom: 5px;
-  list-style: none;
-}
-
-@media screen and (max-width: 765px){
-  .container-footer {
-  margin: 0 25%;
-  }
->>>>>>> 0779815bcdf028a976e0d17a38c3768857a09b22
-}
+ 

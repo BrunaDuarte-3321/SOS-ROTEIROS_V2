@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 .formulario{
   margin: 80px 120px 80px;
 }
@@ -60,66 +60,3 @@ flex-grow: 0;
 margin: 4px 0px;
 }
 
-=======
-.formulario{
-  margin: 80px 120px 80px;
-}
-
-.formulario button{
-  Width:204px;
-  Height:56px;
-  margin-top: 28px;
-  border-radius: 100px;
-  Padding:20px 60px 20px 60px;
-  background-color: rgba(63, 109, 111, 1);
-  font-family: 'Open Sans';
-  font-style: normal;
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 22px;
-  letter-spacing: 0.04em;
-  color: #FFFFFF;
-
-
-}
-.form-row{
-  margin-bottom: 28px;
-  background: #FFFFFF;
-border: 1px solid #8795AF;
-box-sizing: border-box;
-border-radius: 12px;
-}
-.formulario h4{
-  font-family: 'Poppins';
-  font-style: normal;
-  font-weight: 600;
-  font-size: 32px;
-  line-height: 48px;
-  color: #3F6D6F;
-  flex: none;
-  order: 0;
-  flex-grow: 0;
-  margin: 4px 0px;
-}.formulario small{
-  font-family: 'Open Sans';
-font-style: normal;
-font-weight: 400;
-font-size: 14px;
-line-height: 19px;
-/* identical to box height, or 136% */
-
-
-/* Primary/Verde Escuro */
-
-color: #3F6D6F;
-
-
-/* Inside auto layout */
-
-flex: none;
-order: 1;
-flex-grow: 0;
-margin: 4px 0px;
-}
-
->>>>>>> 0779815bcdf028a976e0d17a38c3768857a09b22
