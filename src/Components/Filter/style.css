@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 .filter {
   margin: 0 auto 150px;
   width: 50%;
@@ -20,4 +21,28 @@ flex: none;
 order: 2;
 flex-grow: 0;
 margin: 0px 30px;
+=======
+.filter {
+  margin: 0 auto 150px;
+  width: 50%;
+  border-radius: 30px;
+  background: var(--efect);
+}
+.button{
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 20px 40px;
+width: 179px;
+height: 56px;
+left: 621px;
+top: 0px;
+background: #3F9194;
+border-radius: 100px;
+flex: none;
+order: 2;
+flex-grow: 0;
+margin: 0px 30px;
+>>>>>>> 0779815bcdf028a976e0d17a38c3768857a09b22
 }
