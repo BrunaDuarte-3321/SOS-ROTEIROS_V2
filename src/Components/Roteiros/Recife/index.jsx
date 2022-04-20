@@ -1,6 +1,7 @@
 import React, { useEffect } from 'react';
 import { useState } from 'react';
 import { Link, useParams } from 'react-router-dom';
+import HeaderForm from '../../HeaderForm'
 import './style.css';
 import api from '../../../server/api';
 import NavBar from '../../NavBar';
@@ -18,6 +19,8 @@ const Recife = () => {
   return (
     <>
       <NavBar />
+    <HeaderForm/>
+
       <div className="title2 m-3 row justify-content-around">
         <h1 className="col mx-3">Guia de viagem</h1>
       </div>
@@ -27,7 +30,7 @@ const Recife = () => {
           <>
             <div className="tab-content dia" id="pills-tabContent">
               <h2 className="m-5">
-                <b>{evento.dia}° Dia</b>
+                <b >{evento.dia}° Dia</b>
               </h2>
               <div className="content">
                 <div className="row item mb-5">

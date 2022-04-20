@@ -1,0 +1,73 @@
+header {
+  position: relative;
+  width: 100%;
+  min-width: 400px;
+}
+.navbar {
+  position: absolute;
+  width: 100%;
+  color: rgba(63, 109, 111, 1);
+}
+a.nav-link{
+  color: red;
+  text-decoration: none;
+  font-size: 16px;
+  line-height: 22px;
+  color:#3F6D6F
+  ;
+}
+a.nav-link:hover{
+  color:#457679
+  ;
+
+}
+.imageBanner img{
+height: 389px;
+width: 100%;
+margin-top: 132px;
+}  
+
+.blockquote h1{
+  position: absolute;
+  height: 216px;
+  left: 256.2px;
+  top: 219px;
+  font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 96px;
+line-height: 104px;
+/* or 108% */
+
+display: flex;
+align-items: flex-end;
+}
+.image img {
+  width: 100%;
+  margin-top: 132px;
+  
+}
+.nav li 
+,
+main a,
+.nav-footer li a,
+.btnDownload:hover {
+  text-decoration: none;
+  color: var(--font);
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.nav li Link:hover,
+.nav-footer li  a:hover,
+.nav-footer li:hover {
+  text-decoration: none;
+  color: black;
+
+}
+main a:hover{
+  text-decoration: none;
+  color: var(--background);
+}
+

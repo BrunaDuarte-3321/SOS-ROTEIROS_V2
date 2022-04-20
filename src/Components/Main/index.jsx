@@ -9,6 +9,7 @@ import Filter from '../Filter';
 import Footer from '../Footer';
 
 const Main = () => {
+  const cidades = ['Recife', 'Fortaleza', 'Salvador'];
   const [roteiros, setRoteiros] = useState([]);
   useEffect(() => {
     api.get('/roteiros').then(({ data }) => {
@@ -26,6 +27,7 @@ const Main = () => {
         {roteiros.map((rota) => {
           return (
             <>
+              
               <Card
                 nome={rota.nome_roteiro}
                 descricao={rota.descricao_resumida}
