@@ -1,4 +1,3 @@
-
 import NavBar from '../NavBar';
 import HeaderForm from '../HeaderForm'
 import Footer from '../Footer';
