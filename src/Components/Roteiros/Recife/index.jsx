@@ -28,6 +28,16 @@ const Recife = () => {
       {eventos.map((evento) => {
         return (
           <>
+          <button className='button-download'>
+            <a
+              href="#"
+              download="recife.pdf"
+              className="btnDownload col-3 text-center"
+            >
+              Baixar Roteiro Completo
+              <i class="bi bi-cloud-arrow-down-fill"></i>
+            </a>
+          </button>
             <div className="tab-content dia" id="pills-tabContent">
               <h2 className="m-5">
                 <b >{evento.dia}° Dia</b>
