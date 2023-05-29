@@ -13,6 +13,7 @@ export const themeDefault = {
     'gray-300': '#4A576F',
     'gray-400': '#1F293D',
     white: '#fff',
+    button: '#3F9194',
   },
   fontsSize: {
     h1: '6rem',
