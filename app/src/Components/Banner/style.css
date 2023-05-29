@@ -1,0 +1,13 @@
+blockquote h1{
+  position: absolute;
+  top: 344px;
+  left: 256.2px; 
+  font-size: 96px;
+  color: white;
+  font-weight: 600;
+  line-height: 104px;
+}
+.image img {
+  width: 100%;
+  height: 640px;
+}

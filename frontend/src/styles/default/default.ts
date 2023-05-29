@@ -12,6 +12,7 @@ export const themeDefault = {
     'gray-200': '#8795AF',
     'gray-300': '#4A576F',
     'gray-400': '#1F293D',
+    white: '#fff',
   },
   fontsSize: {
     h1: '6rem',

@@ -1,12 +1,13 @@
-import { ThemeProvider } from "styled-components"
-import { themeDefault } from "./styles/default"
-import { GlobalStyle } from "./styles/default/GlobalStyle"
+import { ThemeProvider } from 'styled-components'
+import { Home } from './pages/Home'
+import { GlobalStyle } from './styles/GlobalStyle'
+import { themeDefault } from './styles/default/default'
 
 export const App = () => {
   return (
-     <ThemeProvider theme={themeDefault}>
-      <h1>Teste</h1>
-      <GlobalStyle/>
-     </ThemeProvider>
+    <ThemeProvider theme={themeDefault}>
+      <Home />
+      <GlobalStyle />
+    </ThemeProvider>
   )
 }
